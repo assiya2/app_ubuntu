@@ -1,0 +1,88 @@
+<!-- public/fiche.html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Fiche Entraîneur</title>
+  <style>
+    body { font-family: Arial; background: #f5f5f5; padding: 20px; }
+    .container {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 500px;
+      margin: 50px auto;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .form-group { margin-bottom: 15px; }
+    label { display: block; font-weight: bold; margin-bottom: 5px; }
+    input { width: 100%; padding: 10px; border-radius: 4px; border: 1px solid #ccc; }
+    button {
+      padding: 10px 15px;
+      background: #007bff;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+    button:hover { background: #0056b3; }
+    .avatar-preview {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background: #eee;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Profil de l'entraîneur</h2>
+
+    <div class="form-group">
+      <label>Nom :</label>
+      <input type="text" id="entraineurName" />
+    </div>
+
+    <div class="form-group">
+      <label>Avatar (URL) :</label>
+      <input type="text" id="entraineurAvatar" placeholder="https://..." />
+      <img id="avatarPreview" class="avatar-preview" src="https://via.placeholder.com/80" />
+    </div>
+
+    <button onclick="saveProfile()">💾 Enregistrer</button>
+    <button onclick="goToMatch()">🎮 Aller aux matchs</button>
+  </div>
+
+  <script>
+    const nameInput = document.getElementById('entraineurName');
+    const avatarInput = document.getElementById('entraineurAvatar');
+    const preview = document.getElementById('avatarPreview');
+
+    nameInput.value = localStorage.getItem('entraineurName') || '';
+    avatarInput.value = localStorage.getItem('entraineurAvatar') || '';
+    preview.src = avatarInput.value || 'https://via.placeholder.com/80';
+
+    avatarInput.addEventListener('input', () => {
+      preview.src = avatarInput.value || 'https://via.placeholder.com/80';
+    });
+
+    function saveProfile() {
+      localStorage.setItem('entraineurName', nameInput.value.trim());
+      localStorage.setItem('entraineurAvatar', avatarInput.value.trim());
+      alert("Profil mis à jour !");
+    }
+
+    function goToMatch() {
+      if (!nameInput.value.trim()) {
+        alert("Le nom est obligatoire !");
+        return;
+      }
+      saveProfile();
+      window.location.href = '/match.html';
+    }
+  </script>
+</body>
+</html>
