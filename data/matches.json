@@ -1,0 +1,4242 @@
+{
+  "1": {
+    "coaches": [
+      [
+        "4l7ip9P3dSxTdHOoAAA2",
+        {
+          "id": "4l7ip9P3dSxTdHOoAAA2",
+          "name": "ent1",
+          "role": "Assistant",
+          "socketId": "4l7ip9P3dSxTdHOoAAA2",
+          "joinedAt": "2025-06-08T22:09:46.751Z",
+          "isActive": true,
+          "isRecording": false,
+          "isCommunicating": false
+        }
+      ],
+      [
+        "2AoiQXnIavrloYTdAAA4",
+        {
+          "id": "2AoiQXnIavrloYTdAAA4",
+          "name": "ent2",
+          "role": "Assistant",
+          "socketId": "2AoiQXnIavrloYTdAAA4",
+          "joinedAt": "2025-06-08T22:09:51.927Z",
+          "isActive": true,
+          "isRecording": false,
+          "isCommunicating": false
+        }
+      ]
+    ],
+    "players": [],
+    "terrain": "foot",
+    "playersOnField": [
+      {
+        "id": "orqO5OaLEs14B-DiAAAH",
+        "name": "bounou",
+        "position": "Gardien",
+        "avatar": "https://img.a.transfermarkt.technology/portrait/big/207834-1697055166.png?lm=1",
+        "status": "online",
+        "socketId": "orqO5OaLEs14B-DiAAAH",
+        "x": 669,
+        "y": 239,
+        "addedBy": "ASSIYA",
+        "addedAt": "2025-06-06T09:44:03.213Z",
+        "lastUpdatedBy": "ASSIYA",
+        "lastUpdatedAt": "2025-06-06T09:44:11.940Z"
+      },
+      {
+        "id": "FAyfT-jgpEEaducoAAA6",
+        "name": "ziyech",
+        "position": "Attaquant",
+        "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8DM27O0SuBTUhzg6QhbiAQX5SJa0AvfhwHA&s",
+        "status": "online",
+        "socketId": "FAyfT-jgpEEaducoAAA6",
+        "x": 499,
+        "y": 111,
+        "addedBy": "ent1",
+        "addedAt": "2025-06-08T22:12:30.748Z",
+        "lastUpdatedBy": "ent1",
+        "lastUpdatedAt": "2025-06-08T22:12:40.692Z"
+      }
+    ],
+    "recordings": [],
+    "communications": [
+      {
+        "filename": "1_ASSIYA_comm_bounou_2025-06-06T09-43-01-383Z.wav",
+        "filepath": "/home/assiya2/server-vue-app/recordings/communications/1_ASSIYA_comm_bounou_2025-06-06T09-43-01-383Z.wav",
+        "duration": 43,
+        "startTime": "2025-06-06T09:43:01.828Z",
+        "endTime": "2025-06-06T09:43:44.876Z",
+        "coachName": "ASSIYA",
+        "matchId": "1",
+        "targets": [
+          "bounou"
+        ],
+        "type": "communication"
+      },
+      {
+        "filename": "1_assiya_comm_ziyech_2025-06-08T21-50-30-334Z.wav",
+        "filepath": "/home/assiya2/server-vue-app/recordings/communications/1_assiya_comm_ziyech_2025-06-08T21-50-30-334Z.wav",
+        "duration": 15,
+        "startTime": "2025-06-08T21:50:30.575Z",
+        "endTime": "2025-06-08T21:50:46.149Z",
+        "coachName": "assiya",
+        "matchId": "1",
+        "targets": [
+          "ziyech"
+        ],
+        "type": "communication"
+      },
+      {
+        "filename": "1_assiya_comm_ziyech-bounou_2025-06-08T22-06-08-713Z.wav",
+        "filepath": "/home/assiya2/server-vue-app/recordings/communications/1_assiya_comm_ziyech-bounou_2025-06-08T22-06-08-713Z.wav",
+        "duration": 17,
+        "startTime": "2025-06-08T22:06:08.883Z",
+        "endTime": "2025-06-08T22:06:26.579Z",
+        "coachName": "assiya",
+        "matchId": "1",
+        "targets": [
+          "ziyech",
+          "bounou"
+        ],
+        "type": "communication"
+      },
+      {
+        "filename": "1_assiya_comm_ziyech-bounou-ziyech_2025-06-08T22-06-33-319Z.wav",
+        "filepath": "/home/assiya2/server-vue-app/recordings/communications/1_assiya_comm_ziyech-bounou-ziyech_2025-06-08T22-06-33-319Z.wav",
+        "duration": 103,
+        "startTime": "2025-06-08T22:06:33.346Z",
+        "endTime": "2025-06-08T22:08:16.391Z",
+        "coachName": "assiya",
+        "matchId": "1",
+        "targets": [
+          "ziyech",
+          "bounou",
+          "ziyech"
+        ],
+        "type": "communication"
+      },
+      {
+        "filename": "1_ent2_comm_ziyech_2025-06-08T22-10-35-880Z.wav",
+        "filepath": "/home/assiya2/server-vue-app/recordings/communications/1_ent2_comm_ziyech_2025-06-08T22-10-35-880Z.wav",
+        "duration": 39,
+        "startTime": "2025-06-08T22:10:35.962Z",
+        "endTime": "2025-06-08T22:11:15.685Z",
+        "coachName": "ent2",
+        "matchId": "1",
+        "targets": [
+          "ziyech"
+        ],
+        "type": "communication"
+      },
+      {
+        "filename": "1_ent2_comm_ziyech-bounou_2025-06-08T22-11-20-714Z.wav",
+        "filepath": "/home/assiya2/server-vue-app/recordings/communications/1_ent2_comm_ziyech-bounou_2025-06-08T22-11-20-714Z.wav",
+        "duration": 22,
+        "startTime": "2025-06-08T22:11:20.853Z",
+        "endTime": "2025-06-08T22:11:43.732Z",
+        "coachName": "ent2",
+        "matchId": "1",
+        "targets": [
+          "ziyech",
+          "bounou"
+        ],
+        "type": "communication"
+      }
+    ],
+    "createdAt": "2025-06-06T09:35:30.154Z",
+    "lastUpdated": "2025-06-08T23:57:19.615Z"
+  },
+  "6": {
+    "coaches": [
+      [
+        "6EOdLe7MTnZj_zAcAAAD",
+        {
+          "id": "6EOdLe7MTnZj_zAcAAAD",
+          "name": "assiya",
+          "role": "Assistant",
+          "socketId": "6EOdLe7MTnZj_zAcAAAD",
+          "joinedAt": "2025-06-03T21:08:09.476Z",
+          "isActive": true,
+          "isRecording": false,
+          "isCommunicating": false
+        }
+      ],
+      [
+        "5naVossH7rBrJB3JAAAD",
+        {
+          "id": "5naVossH7rBrJB3JAAAD",
+          "name": "assiya",
+          "role": "Assistant",
+          "socketId": "5naVossH7rBrJB3JAAAD",
+          "joinedAt": "2025-06-03T21:21:20.859Z",
+          "isActive": true,
+          "isRecording": false,
+          "isCommunicating": false
+        }
+      ],
+      [
+        "F6uUwYXPk-LQXI9DAAAB",
+        {
+          "id": "F6uUwYXPk-LQXI9DAAAB",
+          "name": "assiya",
+          "role": "Assistant",
+          "socketId": "F6uUwYXPk-LQXI9DAAAB",
+          "joinedAt": "2025-06-03T21:27:36.232Z",
+          "isActive": true,
+          "isRecording": false,
+          "isCommunicating": false
+        }
+      ],
+      [
+        "gwqRXG0-hUQN3SZtAAAB",
+        {
+          "id": "gwqRXG0-hUQN3SZtAAAB",
+          "name": "assiya",
+          "role": "Assistant",
+          "socketId": "gwqRXG0-hUQN3SZtAAAB",
+          "joinedAt": "2025-06-03T21:46:44.672Z",
+          "isActive": true,
+          "isRecording": false,
+          "isCommunicating": false
+        }
+      ],
+      [
+        "IACoajMLyZDb6U6sAAAE",
+        {
+          "id": "IACoajMLyZDb6U6sAAAE",
+          "name": "assiya",
+          "role": "Assistant",
+          "socketId": "IACoajMLyZDb6U6sAAAE",
+          "joinedAt": "2025-06-03T22:59:27.494Z",
+          "isActive": true,
+          "isRecording": false,
+          "isCommunicating": false
+        }
+      ],
+      [
+        "NfwVtj8nEaQ-4WVHAAAB",
+        {
+          "id": "NfwVtj8nEaQ-4WVHAAAB",
+          "name": "ha",
+          "role": "Assistant",
+          "socketId": "NfwVtj8nEaQ-4WVHAAAB",
+          "joinedAt": "2025-06-04T08:42:38.872Z",
+          "isActive": true,
+          "isRecording": false,
+          "isCommunicating": false
+        }
+      ],
+      [
+        "aE47x-Z_Ep90G2NbAADb",
+        {
+          "socketId": "aE47x-Z_Ep90G2NbAADb",
+          "name": "assiya",
+          "role": "Assistant",
+          "matchId": "6",
+          "isRecording": false,
+          "isCommunicating": false,
+          "isStreaming": false,
+          "connectedAt": "2025-06-04T11:00:35.816Z"
+        }
+      ],
+      [
+        "Ib4tKGZscwmjNlr2AAAH",
+        {
+          "socketId": "Ib4tKGZscwmjNlr2AAAH",
+          "name": "assiy",
+          "role": "Assistant",
+          "matchId": "6",
+          "isRecording": false,
+          "isCommunicating": false,
+          "isStreaming": false,
+          "connectedAt": "2025-06-04T11:10:36.502Z"
+        }
+      ],
+      [
+        "jXm2V97vzaVRBtziAAAH",
+        {
+          "socketId": "jXm2V97vzaVRBtziAAAH",
+          "name": "assiya",
+          "role": "Assistant",
+          "matchId": "6",
+          "isRecording": false,
+          "isCommunicating": false,
+          "isStreaming": false,
+          "connectedAt": "2025-06-04T11:22:57.537Z"
+        }
+      ],
+      [
+        "tGAaYtrEKWD8jZ5lAAAF",
+        {
+          "socketId": "tGAaYtrEKWD8jZ5lAAAF",
+          "name": "assiya",
+          "role": "Assistant",
+          "matchId": "6",
+          "isRecording": false,
+          "isCommunicating": false,
+          "isStreaming": false,
+          "connectedAt": "2025-06-04T11:50:54.000Z"
+        }
+      ],
+      [
+        "8qKV5FMFyXciQ8sjAAAF",
+        {
+          "id": "8qKV5FMFyXciQ8sjAAAF",
+          "name": "ss",
+          "role": "Assistant",
+          "isRecording": false,
+          "isCommunicating": false,
+          "connectedAt": "2025-06-04T17:07:27.703Z"
+        }
+      ],
+      [
+        "8RYi2nMlnq8mFxe4AAAl",
+        {
+          "id": "8RYi2nMlnq8mFxe4AAAl",
+          "name": "qss",
+          "role": "Assistant",
+          "isRecording": false,
+          "isCommunicating": false,
+          "connectedAt": "2025-06-04T18:18:09.027Z"
+        }
+      ],
+      [
+        "ByXXqbpXAl9QfpVaAAAF",
+        {
+          "id": "ByXXqbpXAl9QfpVaAAAF",
+          "name": "sss",
+          "role": "Assistant",
+          "socketId": "ByXXqbpXAl9QfpVaAAAF",
+          "connectedAt": "2025-06-04T21:49:01.499Z",
+          "isCommunicating": false,
+          "isRecording": false
+        }
+      ]
+    ],
+    "players": [],
+    "terrain": "foot",
+    "playersOnField": [],
+    "recordings": [],
+    "communications": [
+      {
+        "filename": "6_ENT1_comm_bounou_2025-05-30T08-45-58-864Z.wav",
+        "filepath": "/home/assiya2/server-vue-app/recordings/communications/6_ENT1_comm_bounou_2025-05-30T08-45-58-864Z.wav",
+        "duration": 26,
+        "startTime": "2025-05-30T08:45:58.896Z",
+        "endTime": "2025-05-30T08:46:25.496Z",
+        "coachName": "ENT1",
+        "matchId": "6",
+        "targets": [
+          "bounou"
+        ],
+        "type": "communication"
+      },
+      {
+        "filename": "6_ENT2_comm_bounou_2025-05-30T08-56-30-413Z.wav",
+        "filepath": "/home/assiya2/server-vue-app/recordings/communications/6_ENT2_comm_bounou_2025-05-30T08-56-30-413Z.wav",
+        "duration": 12,
+        "startTime": "2025-05-30T08:56:30.638Z",
+        "endTime": "2025-05-30T08:56:42.896Z",
+        "coachName": "ENT2",
+        "matchId": "6",
+        "targets": [
+          "bounou"
+        ],
+        "type": "communication"
+      },
+      {
+        "filename": "6_ent1_comm_bounou_2025-05-30T23-18-57-282Z.wav",
+        "filepath": "/home/assiya2/server-vue-app/recordings/communications/6_ent1_comm_bounou_2025-05-30T23-18-57-282Z.wav",
+        "duration": 68,
+        "startTime": "2025-05-30T23:18:58.035Z",
+        "endTime": "2025-05-30T23:20:06.744Z",
+        "coachName": "ent1",
+        "matchId": "6",
+        "targets": [
+          "bounou"
+        ],
+        "type": "communication"
+      },
+      {
+        "filename": "6_ent1_comm_bounou_2025-05-30T23-21-18-750Z.wav",
+        "filepath": "/home/assiya2/server-vue-app/recordings/communications/6_ent1_comm_bounou_2025-05-30T23-21-18-750Z.wav",
+        "duration": 17,
+        "startTime": "2025-05-30T23:21:18.765Z",
+        "endTime": "2025-05-30T23:21:35.873Z",
+        "coachName": "ent1",
+        "matchId": "6",
+        "targets": [
+          "bounou"
+        ],
+        "type": "communication"
+      }
+    ],
+    "createdAt": "2025-05-30T08:43:54.986Z",
+    "lastUpdated": "2025-06-08T23:57:19.615Z"
+  },
+  "default-match": {
+    "matchId": "default-match",
+    "terrain": "Terrain default-match",
+    "coaches": [],
+    "players": [
+      [
+        "6cTOljRkok2AgIi_AACf",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "6cTOljRkok2AgIi_AACf",
+          "connectedAt": "2025-06-04T19:27:45.931Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00"
+        }
+      ],
+      [
+        "MEo-IpsWlPaG-G9tAABC",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "MEo-IpsWlPaG-G9tAABC",
+          "connectedAt": "2025-06-04T19:53:32.232Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online"
+        }
+      ],
+      [
+        "r846dtWo1O7M_xh_AAAB",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "r846dtWo1O7M_xh_AAAB",
+          "connectedAt": "2025-06-04T19:54:22.369Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "eq4uADBBNTP1Shz5AAAF",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "eq4uADBBNTP1Shz5AAAF",
+          "connectedAt": "2025-06-04T19:54:52.264Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "bQWZ97NeePJnDc1sAAAH",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "bQWZ97NeePJnDc1sAAAH",
+          "connectedAt": "2025-06-04T19:55:32.872Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "r680_VVJ9P6lpK5pAAAJ",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "r680_VVJ9P6lpK5pAAAJ",
+          "connectedAt": "2025-06-04T19:56:12.400Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "LqCLhq10WLUvTJmbAAAa",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "LqCLhq10WLUvTJmbAAAa",
+          "connectedAt": "2025-06-04T19:59:54.907Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "_9bNUj79SwqdnCwjAAAc",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "_9bNUj79SwqdnCwjAAAc",
+          "connectedAt": "2025-06-04T20:00:21.764Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "N0vWjDbJM8J8Rn3jAAAe",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "N0vWjDbJM8J8Rn3jAAAe",
+          "connectedAt": "2025-06-04T20:01:08.512Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "hf-ZPTIby7GtkOLpAAAg",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "hf-ZPTIby7GtkOLpAAAg",
+          "connectedAt": "2025-06-04T20:01:41.100Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "Qi79n1i0NhFmD6zyAAAi",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "Qi79n1i0NhFmD6zyAAAi",
+          "connectedAt": "2025-06-04T20:02:21.131Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "c6guD4Ma2Ayz-RtgAAAk",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "c6guD4Ma2Ayz-RtgAAAk",
+          "connectedAt": "2025-06-04T20:03:01.151Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "My8poUyBfjdk71DvAAAm",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "My8poUyBfjdk71DvAAAm",
+          "connectedAt": "2025-06-04T20:03:41.193Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "6syzHpT02StENU9EAAAo",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "6syzHpT02StENU9EAAAo",
+          "connectedAt": "2025-06-04T20:04:23.270Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "fspeKRgNozMn3IPrAAAq",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "fspeKRgNozMn3IPrAAAq",
+          "connectedAt": "2025-06-04T20:05:01.247Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "EBg_9K6cIjI-xvM_AAAs",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "EBg_9K6cIjI-xvM_AAAs",
+          "connectedAt": "2025-06-04T20:05:41.278Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "ylJ_hrixpHEjtCfcAAAu",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "ylJ_hrixpHEjtCfcAAAu",
+          "connectedAt": "2025-06-04T20:06:21.313Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "3vM1T1l2hH78nMb4AAAw",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "3vM1T1l2hH78nMb4AAAw",
+          "connectedAt": "2025-06-04T20:07:01.355Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "2yGz2hS4g2QzFxDaAAAy",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "2yGz2hS4g2QzFxDaAAAy",
+          "connectedAt": "2025-06-04T20:07:41.825Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "4mfH0lFVUo7OK3EhAAA0",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "4mfH0lFVUo7OK3EhAAA0",
+          "connectedAt": "2025-06-04T20:08:21.787Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "3poWFX4D3XEHGJ74AAAB",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "3poWFX4D3XEHGJ74AAAB",
+          "connectedAt": "2025-06-04T20:39:30.222Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "PnpiVdYiSDiAhewKAAAF",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "PnpiVdYiSDiAhewKAAAF",
+          "connectedAt": "2025-06-04T20:39:46.168Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "SXyB3XceAOQVazElAAAH",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "SXyB3XceAOQVazElAAAH",
+          "connectedAt": "2025-06-04T20:40:15.882Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "5gyRDK7yXgNoJekFAAAJ",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "5gyRDK7yXgNoJekFAAAJ",
+          "connectedAt": "2025-06-04T20:41:00.388Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "nUHHXo62S-wwqjGNAAAB",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "nUHHXo62S-wwqjGNAAAB",
+          "connectedAt": "2025-06-04T20:44:02.930Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "goA15B1rNZN6TrORAAAD",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "goA15B1rNZN6TrORAAAD",
+          "connectedAt": "2025-06-04T20:44:16.331Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "veoLsUCGDUxNmzsUAAAF",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "veoLsUCGDUxNmzsUAAAF",
+          "connectedAt": "2025-06-04T20:44:52.910Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "o4WWebYPaZBSEWDPAAAJ",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "o4WWebYPaZBSEWDPAAAJ",
+          "connectedAt": "2025-06-04T20:45:58.868Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "sSIldFyEvvW-3ispAAAL",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "sSIldFyEvvW-3ispAAAL",
+          "connectedAt": "2025-06-04T20:46:08.793Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "t9M3C5wmXwIdQ_FIAAAN",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "t9M3C5wmXwIdQ_FIAAAN",
+          "connectedAt": "2025-06-04T20:46:58.669Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "A1qK1wzijk8oWp4FAAAP",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "A1qK1wzijk8oWp4FAAAP",
+          "connectedAt": "2025-06-04T20:47:28.655Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "nJcP6xsJ1xR6Fzy7AAAR",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "nJcP6xsJ1xR6Fzy7AAAR",
+          "connectedAt": "2025-06-04T20:48:09.359Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "kXMUgFxLjQNZevPlAAAT",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "kXMUgFxLjQNZevPlAAAT",
+          "connectedAt": "2025-06-04T20:48:48.672Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "9L6508QJcEmitkrAAAAW",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "9L6508QJcEmitkrAAAAW",
+          "connectedAt": "2025-06-04T20:49:39.093Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "N5OOo_Vta22jY2aZAAAZ",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "N5OOo_Vta22jY2aZAAAZ",
+          "connectedAt": "2025-06-04T20:50:18.904Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "vfgDS_NpdzbySmQXAAAb",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "vfgDS_NpdzbySmQXAAAb",
+          "connectedAt": "2025-06-04T20:50:48.971Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "LKSKfINVaeYTPc_-AAAd",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "LKSKfINVaeYTPc_-AAAd",
+          "connectedAt": "2025-06-04T20:51:28.810Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "yKz5FPLjjURDTMRfAAAf",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "yKz5FPLjjURDTMRfAAAf",
+          "connectedAt": "2025-06-04T20:52:08.960Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "FvSTkf_f0X7ch1izAAAh",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "FvSTkf_f0X7ch1izAAAh",
+          "connectedAt": "2025-06-04T20:52:49.484Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "EufWFtrIhDvDG153AAAj",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "EufWFtrIhDvDG153AAAj",
+          "connectedAt": "2025-06-04T20:53:28.897Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "VPV4gdIj0mY1TrWDAAAl",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "VPV4gdIj0mY1TrWDAAAl",
+          "connectedAt": "2025-06-04T20:54:08.895Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "splq-Sx62cDdB7IlAAAn",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "splq-Sx62cDdB7IlAAAn",
+          "connectedAt": "2025-06-04T20:54:49.098Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "IGAki5brFVaOoeeSAAAs",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "IGAki5brFVaOoeeSAAAs",
+          "connectedAt": "2025-06-04T20:56:39.193Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "CTka2TuTTC3Z_uFZAAAv",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "CTka2TuTTC3Z_uFZAAAv",
+          "connectedAt": "2025-06-04T20:57:26.681Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "9nM9iTj6Ey7MNOzPAAAx",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "9nM9iTj6Ey7MNOzPAAAx",
+          "connectedAt": "2025-06-04T20:57:54.818Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "QGFarOsaGlBmlu5TAAAz",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "QGFarOsaGlBmlu5TAAAz",
+          "connectedAt": "2025-06-04T20:58:35.220Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "RmLsaK7m1io-z4kuAAA1",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "RmLsaK7m1io-z4kuAAA1",
+          "connectedAt": "2025-06-04T20:59:15.006Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "F2gUA_1g8hTuZ5QGAAA3",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "F2gUA_1g8hTuZ5QGAAA3",
+          "connectedAt": "2025-06-04T20:59:54.825Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "0kWBtU_bola5hF8fAAA5",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "0kWBtU_bola5hF8fAAA5",
+          "connectedAt": "2025-06-04T21:00:34.841Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "0KomteE3bIIJq5XXAAA7",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "0KomteE3bIIJq5XXAAA7",
+          "connectedAt": "2025-06-04T21:01:14.863Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "zmTAtH_tNKPF2dfVAAA9",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "zmTAtH_tNKPF2dfVAAA9",
+          "connectedAt": "2025-06-04T21:01:55.013Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "Hw5pVaeSSZIrlzekAAA_",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "Hw5pVaeSSZIrlzekAAA_",
+          "connectedAt": "2025-06-04T21:02:34.949Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "8KyEpB--V-Q0mwhJAABB",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "8KyEpB--V-Q0mwhJAABB",
+          "connectedAt": "2025-06-04T21:03:25.016Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "m2fKg1lbxT9EF0xIAAAF",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "m2fKg1lbxT9EF0xIAAAF",
+          "connectedAt": "2025-06-04T21:04:52.626Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "GxmwdwIUseFc_8m4AAAI",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "GxmwdwIUseFc_8m4AAAI",
+          "connectedAt": "2025-06-04T21:05:53.493Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "WT8EnRFKhZwnsS76AAAM",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "WT8EnRFKhZwnsS76AAAM",
+          "connectedAt": "2025-06-04T21:07:16.716Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "DfFs3TOsdmbcQDOUAAAP",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "DfFs3TOsdmbcQDOUAAAP",
+          "connectedAt": "2025-06-04T21:07:32.798Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "wcbe6SbDy4gtUEPXAAAR",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "wcbe6SbDy4gtUEPXAAAR",
+          "connectedAt": "2025-06-04T21:08:08.485Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "g_aK-5DdZKLfh-apAAAT",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "g_aK-5DdZKLfh-apAAAT",
+          "connectedAt": "2025-06-04T21:08:18.546Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "ppeloFrA4o4cysVKAAAV",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "ppeloFrA4o4cysVKAAAV",
+          "connectedAt": "2025-06-04T21:08:28.538Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "KHs6bGjk9tMNW9EVAAAX",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "KHs6bGjk9tMNW9EVAAAX",
+          "connectedAt": "2025-06-04T21:08:38.715Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "kI8C6Enh7wqXpzIdAAAh",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "kI8C6Enh7wqXpzIdAAAh",
+          "connectedAt": "2025-06-04T21:10:39.934Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "sHY7_F5hoCFsU0pNAAAj",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "sHY7_F5hoCFsU0pNAAAj",
+          "connectedAt": "2025-06-04T21:10:49.966Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "Nr2Ixc_TflULecCXAAAl",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "Nr2Ixc_TflULecCXAAAl",
+          "connectedAt": "2025-06-04T21:10:59.977Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "ZuhIiSjPVCxTdxnWAAAp",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "ZuhIiSjPVCxTdxnWAAAp",
+          "connectedAt": "2025-06-04T21:11:20.009Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "ctszioP2iPTJKQvHAAAr",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "ctszioP2iPTJKQvHAAAr",
+          "connectedAt": "2025-06-04T21:11:30.113Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "n9dluxf4CAPnJazkAAA7",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "n9dluxf4CAPnJazkAAA7",
+          "connectedAt": "2025-06-04T21:14:12.832Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "xHwIxvx7_WrqqqTYAAA9",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "xHwIxvx7_WrqqqTYAAA9",
+          "connectedAt": "2025-06-04T21:14:25.741Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "oXjFuWo_M4W72NRDAAA_",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "oXjFuWo_M4W72NRDAAA_",
+          "connectedAt": "2025-06-04T21:14:42.975Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "9hPDP2Voo4HAEhoXAABB",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "9hPDP2Voo4HAEhoXAABB",
+          "connectedAt": "2025-06-04T21:14:52.994Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "25cllKaidtEGcPNBAABD",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "25cllKaidtEGcPNBAABD",
+          "connectedAt": "2025-06-04T21:15:02.955Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "0jaJBXnpj_jU4ocnAABF",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "0jaJBXnpj_jU4ocnAABF",
+          "connectedAt": "2025-06-04T21:15:12.998Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "OMKSoaZmki_eeVJfAABH",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "OMKSoaZmki_eeVJfAABH",
+          "connectedAt": "2025-06-04T21:15:23.001Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "f3ocVufBB3Hht6FVAABL",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "f3ocVufBB3Hht6FVAABL",
+          "connectedAt": "2025-06-04T21:15:43.100Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "cxfbcCkgc8M8A_MAAABN",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "cxfbcCkgc8M8A_MAAABN",
+          "connectedAt": "2025-06-04T21:15:53.083Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "wblUDmjeyqdcMhIHAABP",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "wblUDmjeyqdcMhIHAABP",
+          "connectedAt": "2025-06-04T21:16:03.107Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "JZGdHvi6mxQst-d9AABR",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "JZGdHvi6mxQst-d9AABR",
+          "connectedAt": "2025-06-04T21:16:13.168Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "TRFmnfEvkNABlItwAABT",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "TRFmnfEvkNABlItwAABT",
+          "connectedAt": "2025-06-04T21:16:23.351Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "mA0YDWwUn1qum9P4AABV",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "mA0YDWwUn1qum9P4AABV",
+          "connectedAt": "2025-06-04T21:16:33.229Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "fsDiksUId7wf62v1AABX",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "fsDiksUId7wf62v1AABX",
+          "connectedAt": "2025-06-04T21:16:43.177Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "pYjJrrzuMvoXhirHAABZ",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "pYjJrrzuMvoXhirHAABZ",
+          "connectedAt": "2025-06-04T21:16:53.207Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "PVHsOaWmOC-7iS8fAABb",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "PVHsOaWmOC-7iS8fAABb",
+          "connectedAt": "2025-06-04T21:17:03.269Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "m3Goflh1OvZi5ibwAABh",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "m3Goflh1OvZi5ibwAABh",
+          "connectedAt": "2025-06-04T21:18:08.166Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "DcuPT0XccbI_nzGpAABj",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "DcuPT0XccbI_nzGpAABj",
+          "connectedAt": "2025-06-04T21:18:24.436Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "2drId68Fl6AmNd47AABn",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "2drId68Fl6AmNd47AABn",
+          "connectedAt": "2025-06-04T21:19:20.515Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "_SaKm8nq5iRUmreKAABp",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "_SaKm8nq5iRUmreKAABp",
+          "connectedAt": "2025-06-04T21:19:27.000Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "GFbzs8C_zY2MCcQLAABr",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "GFbzs8C_zY2MCcQLAABr",
+          "connectedAt": "2025-06-04T21:19:36.952Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "Ki_jyNFLezltpLyRAABt",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "Ki_jyNFLezltpLyRAABt",
+          "connectedAt": "2025-06-04T21:19:51.031Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "YCfm8BWIhQc-GsjlAABx",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "YCfm8BWIhQc-GsjlAABx",
+          "connectedAt": "2025-06-04T21:20:06.988Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "XaU-eRcTX2eC8hV-AAB9",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "XaU-eRcTX2eC8hV-AAB9",
+          "connectedAt": "2025-06-04T21:22:47.915Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "mg3aAxS36sW386x3AAB_",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "mg3aAxS36sW386x3AAB_",
+          "connectedAt": "2025-06-04T21:22:58.584Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "MhVNhnMEu1e5FcWUAACB",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "MhVNhnMEu1e5FcWUAACB",
+          "connectedAt": "2025-06-04T21:23:09.268Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "-yVgImncGLoSOxvVAACD",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "-yVgImncGLoSOxvVAACD",
+          "connectedAt": "2025-06-04T21:23:17.889Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "Qf0-u_LbWxGPYynQAACF",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "Qf0-u_LbWxGPYynQAACF",
+          "connectedAt": "2025-06-04T21:23:28.135Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "dFku1Jiv04WzVmNlAACH",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "dFku1Jiv04WzVmNlAACH",
+          "connectedAt": "2025-06-04T21:23:37.887Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "EZ59A6s6l3jPD5HtAACJ",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "EZ59A6s6l3jPD5HtAACJ",
+          "connectedAt": "2025-06-04T21:23:47.905Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "q7NA9tBC_j495iBNAACL",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "q7NA9tBC_j495iBNAACL",
+          "connectedAt": "2025-06-04T21:23:58.053Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "9bqiSBPpFIhAwL9ZAACN",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "9bqiSBPpFIhAwL9ZAACN",
+          "connectedAt": "2025-06-04T21:24:07.971Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "5CIBhl9WhATTsZZQAACP",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "5CIBhl9WhATTsZZQAACP",
+          "connectedAt": "2025-06-04T21:24:17.987Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "HEG93fXVGzxbwa7jAACR",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "HEG93fXVGzxbwa7jAACR",
+          "connectedAt": "2025-06-04T21:24:28.014Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "hS7xj88Wr-9gmO8qAACT",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "hS7xj88Wr-9gmO8qAACT",
+          "connectedAt": "2025-06-04T21:24:38.042Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "purNWwRIm6v4KcuLAACV",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "purNWwRIm6v4KcuLAACV",
+          "connectedAt": "2025-06-04T21:24:54.061Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "p0WRMFez8kczCqaDAACa",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "p0WRMFez8kczCqaDAACa",
+          "connectedAt": "2025-06-04T21:25:22.874Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "n1HI1Z4hA9wru4WRAACc",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "n1HI1Z4hA9wru4WRAACc",
+          "connectedAt": "2025-06-04T21:25:29.838Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "ygbd4kev-7DcHpwQAACe",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "ygbd4kev-7DcHpwQAACe",
+          "connectedAt": "2025-06-04T21:25:39.799Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "x66dSwhbrtvgd-t0AACg",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "x66dSwhbrtvgd-t0AACg",
+          "connectedAt": "2025-06-04T21:25:49.826Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "U8t5sTjy8wCcJ0fhAACk",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "U8t5sTjy8wCcJ0fhAACk",
+          "connectedAt": "2025-06-04T21:26:09.894Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "1E6PIgy_mAUGqAzNAACm",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "1E6PIgy_mAUGqAzNAACm",
+          "connectedAt": "2025-06-04T21:26:19.929Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "5K0lED3KkzRJRWe_AACo",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "5K0lED3KkzRJRWe_AACo",
+          "connectedAt": "2025-06-04T21:26:29.957Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "4DqGZFn44puwMPMNAACq",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "4DqGZFn44puwMPMNAACq",
+          "connectedAt": "2025-06-04T21:26:39.979Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "h2HVd8pOAjsHl4CgAACs",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "h2HVd8pOAjsHl4CgAACs",
+          "connectedAt": "2025-06-04T21:26:50.086Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "ShupMmVhSpnTa87xAACu",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "ShupMmVhSpnTa87xAACu",
+          "connectedAt": "2025-06-04T21:27:00.016Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "aT5-BMIc-eBeeTd5AACw",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "aT5-BMIc-eBeeTd5AACw",
+          "connectedAt": "2025-06-04T21:27:10.045Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "NS9frAwqu4vGJxjsAACy",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "NS9frAwqu4vGJxjsAACy",
+          "connectedAt": "2025-06-04T21:27:20.125Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "MLnm1gNGVj8S9Fv_AAC0",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "MLnm1gNGVj8S9Fv_AAC0",
+          "connectedAt": "2025-06-04T21:27:30.097Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "7VletZP4INS0Ex2fAAC2",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "7VletZP4INS0Ex2fAAC2",
+          "connectedAt": "2025-06-04T21:27:40.156Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "MVTxGhr-vlqidppYAAC4",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "MVTxGhr-vlqidppYAAC4",
+          "connectedAt": "2025-06-04T21:27:50.220Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "uJjqHxft6GJfIJ2QAAC8",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "uJjqHxft6GJfIJ2QAAC8",
+          "connectedAt": "2025-06-04T21:28:10.237Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "ZrVlhBgWwQla56YAAADA",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "ZrVlhBgWwQla56YAAADA",
+          "connectedAt": "2025-06-04T21:28:20.267Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "B4q0daJtpFZYRDoSAADD",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "B4q0daJtpFZYRDoSAADD",
+          "connectedAt": "2025-06-04T21:28:40.317Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "7OStjnTauedV2KBNAADF",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "7OStjnTauedV2KBNAADF",
+          "connectedAt": "2025-06-04T21:28:50.356Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "b06bKP6kcpQNRToPAADH",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "b06bKP6kcpQNRToPAADH",
+          "connectedAt": "2025-06-04T21:29:00.659Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "VIqmLkzNdX-gFpBmAADJ",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "VIqmLkzNdX-gFpBmAADJ",
+          "connectedAt": "2025-06-04T21:29:10.407Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "0ME5SHwYHO16QTzIAADN",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "0ME5SHwYHO16QTzIAADN",
+          "connectedAt": "2025-06-04T21:29:30.456Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "cAe5I3P4P1FI74OPAADP",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "cAe5I3P4P1FI74OPAADP",
+          "connectedAt": "2025-06-04T21:29:40.479Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "jE65m8uOQxZJ2RHWAADX",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "jE65m8uOQxZJ2RHWAADX",
+          "connectedAt": "2025-06-04T21:30:22.307Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "xvei31DpE7FNwftcAADZ",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "xvei31DpE7FNwftcAADZ",
+          "connectedAt": "2025-06-04T21:30:38.067Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "JYcqwTHXCfaM6CwwAADd",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "JYcqwTHXCfaM6CwwAADd",
+          "connectedAt": "2025-06-04T21:30:58.015Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "yIz5mRTA2bWNiQ0IAADf",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "yIz5mRTA2bWNiQ0IAADf",
+          "connectedAt": "2025-06-04T21:31:08.072Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "R4LCShBHTGhpNp0nAADh",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "R4LCShBHTGhpNp0nAADh",
+          "connectedAt": "2025-06-04T21:31:18.041Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "1Why36lAZcvsYw0SAADl",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "1Why36lAZcvsYw0SAADl",
+          "connectedAt": "2025-06-04T21:31:38.085Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "ZOfM9ZLGqLmqYBEXAADn",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "ZOfM9ZLGqLmqYBEXAADn",
+          "connectedAt": "2025-06-04T21:31:48.109Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "MFqQrbJ5rOjKUxpiAADr",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "MFqQrbJ5rOjKUxpiAADr",
+          "connectedAt": "2025-06-04T21:31:58.128Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "ON5frT-8oAfWPBg4AADv",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "ON5frT-8oAfWPBg4AADv",
+          "connectedAt": "2025-06-04T21:32:18.174Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "DmKTNgr9F4fQcnMAAADx",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "DmKTNgr9F4fQcnMAAADx",
+          "connectedAt": "2025-06-04T21:32:28.190Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "jTpEZXUA003mVIv6AADz",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "jTpEZXUA003mVIv6AADz",
+          "connectedAt": "2025-06-04T21:32:38.251Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "klABrsP6dm2gYnpWAAD1",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "klABrsP6dm2gYnpWAAD1",
+          "connectedAt": "2025-06-04T21:32:48.231Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "JH_tMywASsYgWthEAAAF",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "JH_tMywASsYgWthEAAAF",
+          "connectedAt": "2025-06-04T21:33:08.356Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "3yA_hHsdUZuMMP1rAAAH",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "3yA_hHsdUZuMMP1rAAAH",
+          "connectedAt": "2025-06-04T21:33:18.335Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "8lyuc6jjv5SmOv1SAAAL",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "8lyuc6jjv5SmOv1SAAAL",
+          "connectedAt": "2025-06-04T21:33:38.387Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "aChFIUEjJRX_zktWAAAN",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "aChFIUEjJRX_zktWAAAN",
+          "connectedAt": "2025-06-04T21:33:48.472Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "2vbTKdrzi5IiZP5vAAAP",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "2vbTKdrzi5IiZP5vAAAP",
+          "connectedAt": "2025-06-04T21:33:58.444Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "VURdhqxHcvc5SRQUAAAR",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "VURdhqxHcvc5SRQUAAAR",
+          "connectedAt": "2025-06-04T21:34:08.455Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "HYyEF1xlD0h9IVF6AAAT",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "HYyEF1xlD0h9IVF6AAAT",
+          "connectedAt": "2025-06-04T21:34:18.500Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "VtGhoNNJV_5MXgxFAAAV",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "VtGhoNNJV_5MXgxFAAAV",
+          "connectedAt": "2025-06-04T21:34:28.503Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "KrMnfZ7MwEdmgvlpAAAX",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "KrMnfZ7MwEdmgvlpAAAX",
+          "connectedAt": "2025-06-04T21:34:38.542Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "J-0R3Z8hTmnw7eCSAAAb",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "J-0R3Z8hTmnw7eCSAAAb",
+          "connectedAt": "2025-06-04T21:34:58.563Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "mV3At6HHpr4-e9b1AAAd",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "mV3At6HHpr4-e9b1AAAd",
+          "connectedAt": "2025-06-04T21:35:08.615Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "wgWpeX4vZKV7UoRLAAAf",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "wgWpeX4vZKV7UoRLAAAf",
+          "connectedAt": "2025-06-04T21:35:18.688Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "YLwbmBgmn2sVh0IdAAAh",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "YLwbmBgmn2sVh0IdAAAh",
+          "connectedAt": "2025-06-04T21:35:28.688Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "-YSbG28p-LxicuzTAAAj",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "-YSbG28p-LxicuzTAAAj",
+          "connectedAt": "2025-06-04T21:35:38.688Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "x1FtALnSAu1lx2dnAAAl",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "x1FtALnSAu1lx2dnAAAl",
+          "connectedAt": "2025-06-04T21:35:48.712Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "3UE51fHSqmziU7j-AAAn",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "3UE51fHSqmziU7j-AAAn",
+          "connectedAt": "2025-06-04T21:35:58.750Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "ekDOKaYjEeAkgIGrAAAp",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "ekDOKaYjEeAkgIGrAAAp",
+          "connectedAt": "2025-06-04T21:36:10.447Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "XwogYCw7dbVsiUrxAAAr",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "XwogYCw7dbVsiUrxAAAr",
+          "connectedAt": "2025-06-04T21:36:18.795Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "tVZIKYYecQnqbKOIAAAt",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "tVZIKYYecQnqbKOIAAAt",
+          "connectedAt": "2025-06-04T21:36:34.828Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "IT0XttjFLgJWPbKNAAAv",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "IT0XttjFLgJWPbKNAAAv",
+          "connectedAt": "2025-06-04T21:36:46.393Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "xrd6lYdNgFAC0rPOAAAx",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "xrd6lYdNgFAC0rPOAAAx",
+          "connectedAt": "2025-06-04T21:36:52.120Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "smQE7HMq225UwEDKAAAz",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "smQE7HMq225UwEDKAAAz",
+          "connectedAt": "2025-06-04T21:37:02.175Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "EbUFeuQoQxZB8hHuAAA1",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "EbUFeuQoQxZB8hHuAAA1",
+          "connectedAt": "2025-06-04T21:37:12.116Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "9cvQEVkm0qd4bz_sAAA3",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "9cvQEVkm0qd4bz_sAAA3",
+          "connectedAt": "2025-06-04T21:37:22.130Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "VSnBjSAs9zMCuPFnAAA5",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "VSnBjSAs9zMCuPFnAAA5",
+          "connectedAt": "2025-06-04T21:37:32.170Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "sN6HPdmyVUsLqwI2AAA8",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "sN6HPdmyVUsLqwI2AAA8",
+          "connectedAt": "2025-06-04T21:37:52.185Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "m1lnhGOUFJ6ckhl4AAA-",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "m1lnhGOUFJ6ckhl4AAA-",
+          "connectedAt": "2025-06-04T21:38:02.218Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "UN4xP9j3DwO1uAjfAABC",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "UN4xP9j3DwO1uAjfAABC",
+          "connectedAt": "2025-06-04T21:38:22.246Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "jjSXugxPvM0NxLaoAAAF",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "jjSXugxPvM0NxLaoAAAF",
+          "connectedAt": "2025-06-04T21:38:42.355Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "mLAjyjanCKtWb45ZAAAJ",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "mLAjyjanCKtWb45ZAAAJ",
+          "connectedAt": "2025-06-04T21:39:02.412Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "lnt6odU26cxIpFRIAAAL",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "lnt6odU26cxIpFRIAAAL",
+          "connectedAt": "2025-06-04T21:39:12.382Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "SFqEt8levi1UebY2AAAN",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "SFqEt8levi1UebY2AAAN",
+          "connectedAt": "2025-06-04T21:39:22.607Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "u1EAczGUdPBPE5HgAAAR",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "u1EAczGUdPBPE5HgAAAR",
+          "connectedAt": "2025-06-04T21:39:42.589Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "6f07fRwxex3XYlpzAAAT",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "6f07fRwxex3XYlpzAAAT",
+          "connectedAt": "2025-06-04T21:39:52.618Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "kE_rCv737WphpxqlAAAV",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "kE_rCv737WphpxqlAAAV",
+          "connectedAt": "2025-06-04T21:40:02.901Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "nhawIlRGIJnUltA-AAAZ",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "nhawIlRGIJnUltA-AAAZ",
+          "connectedAt": "2025-06-04T21:40:22.574Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "VMq7E-PF_MRutqoBAAAb",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "VMq7E-PF_MRutqoBAAAb",
+          "connectedAt": "2025-06-04T21:40:32.593Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "Idg6J3BR67Bs32kKAAAd",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "Idg6J3BR67Bs32kKAAAd",
+          "connectedAt": "2025-06-04T21:40:42.862Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "8qKxly-ICKNEPx_FAAAf",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "8qKxly-ICKNEPx_FAAAf",
+          "connectedAt": "2025-06-04T21:40:52.632Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "8dEvBneP15e-Y8NAAAAj",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "8dEvBneP15e-Y8NAAAAj",
+          "connectedAt": "2025-06-04T21:41:12.675Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "4uQG2S2Oo6xc-rJMAAAl",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "4uQG2S2Oo6xc-rJMAAAl",
+          "connectedAt": "2025-06-04T21:41:22.783Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "1nXEHsk7DbzvdgW2AAAn",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "1nXEHsk7DbzvdgW2AAAn",
+          "connectedAt": "2025-06-04T21:41:32.709Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "cFn2-kFvdG6Rub_RAAAp",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "cFn2-kFvdG6Rub_RAAAp",
+          "connectedAt": "2025-06-04T21:41:42.733Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "986oIMJZak-uIhzUAAAr",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "986oIMJZak-uIhzUAAAr",
+          "connectedAt": "2025-06-04T21:41:52.779Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "90BKVX9cSG6KaPijAAAt",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "90BKVX9cSG6KaPijAAAt",
+          "connectedAt": "2025-06-04T21:42:02.788Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "ieQkKnHzZ8hY1_-YAAAv",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "ieQkKnHzZ8hY1_-YAAAv",
+          "connectedAt": "2025-06-04T21:42:12.819Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "RLj6aQGbRPyNzDjTAAAx",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "RLj6aQGbRPyNzDjTAAAx",
+          "connectedAt": "2025-06-04T21:42:22.857Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "IZblRdi_RTXlM04qAAAz",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "IZblRdi_RTXlM04qAAAz",
+          "connectedAt": "2025-06-04T21:42:32.903Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "HHFyeJB89ycofKpHAAA1",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "HHFyeJB89ycofKpHAAA1",
+          "connectedAt": "2025-06-04T21:42:42.892Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "7REEedclYnW3s4PaAAA3",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "7REEedclYnW3s4PaAAA3",
+          "connectedAt": "2025-06-04T21:42:52.926Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "W_0yY-_fP_F0pK-qAAA5",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "W_0yY-_fP_F0pK-qAAA5",
+          "connectedAt": "2025-06-04T21:43:02.967Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "w7nGLLSDu-n1UzuCAAA7",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "w7nGLLSDu-n1UzuCAAA7",
+          "connectedAt": "2025-06-04T21:43:13.001Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "FNZUfc3ZY4sOLNTcAAA9",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "FNZUfc3ZY4sOLNTcAAA9",
+          "connectedAt": "2025-06-04T21:43:23.022Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "2qxcp8HlYAXm9RU7AAA_",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "2qxcp8HlYAXm9RU7AAA_",
+          "connectedAt": "2025-06-04T21:43:33.058Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "iUYH9-mxGmjeyLx8AABD",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "iUYH9-mxGmjeyLx8AABD",
+          "connectedAt": "2025-06-04T21:43:53.351Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "DUDI8FOD0iiKVmhyAABF",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "DUDI8FOD0iiKVmhyAABF",
+          "connectedAt": "2025-06-04T21:44:03.133Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "gGBtm4Su11DfmvyfAABH",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "gGBtm4Su11DfmvyfAABH",
+          "connectedAt": "2025-06-04T21:44:13.184Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "lp4fskhjliZHn-MiAABJ",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "lp4fskhjliZHn-MiAABJ",
+          "connectedAt": "2025-06-04T21:44:23.480Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "GIs8mMxRrO8vAWuOAABL",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "GIs8mMxRrO8vAWuOAABL",
+          "connectedAt": "2025-06-04T21:44:33.256Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "eHV8T8KYVeepdN_eAABN",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "eHV8T8KYVeepdN_eAABN",
+          "connectedAt": "2025-06-04T21:44:43.214Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "lnzMNqrCPJHQ3ZEdAABP",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "lnzMNqrCPJHQ3ZEdAABP",
+          "connectedAt": "2025-06-04T21:44:53.406Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "O0qZUz2Gwrf7eOuFAABR",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "O0qZUz2Gwrf7eOuFAABR",
+          "connectedAt": "2025-06-04T21:45:03.294Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "Jez4Bpy1yMCJ2o-SAABT",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "Jez4Bpy1yMCJ2o-SAABT",
+          "connectedAt": "2025-06-04T21:45:13.357Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "o1bkr3Cr9xcks24HAABV",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "o1bkr3Cr9xcks24HAABV",
+          "connectedAt": "2025-06-04T21:45:23.368Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "t1rQm8aywmacJ7tmAABX",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "t1rQm8aywmacJ7tmAABX",
+          "connectedAt": "2025-06-04T21:45:34.775Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "7v_EzSSFKiQIx74-AABZ",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "7v_EzSSFKiQIx74-AABZ",
+          "connectedAt": "2025-06-04T21:45:44.125Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "sVH90d61j25yw8mfAABb",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "sVH90d61j25yw8mfAABb",
+          "connectedAt": "2025-06-04T21:45:53.469Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "j9SCWRYv1mltkk_KAABd",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "j9SCWRYv1mltkk_KAABd",
+          "connectedAt": "2025-06-04T21:46:03.588Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "8xmuYhQ2Zjn9O2TVAABf",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "8xmuYhQ2Zjn9O2TVAABf",
+          "connectedAt": "2025-06-04T21:46:13.503Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "mAQS4EEu21sxZRJ5AABh",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "mAQS4EEu21sxZRJ5AABh",
+          "connectedAt": "2025-06-04T21:46:23.526Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "8hFdwZloK0CeRsiZAABj",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "8hFdwZloK0CeRsiZAABj",
+          "connectedAt": "2025-06-04T21:46:33.558Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "sUsvsEe3L7yEbT43AABl",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "sUsvsEe3L7yEbT43AABl",
+          "connectedAt": "2025-06-04T21:46:43.574Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "KI9Ch9Wyi9j0R1FKAABn",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "KI9Ch9Wyi9j0R1FKAABn",
+          "connectedAt": "2025-06-04T21:46:53.612Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "GDDOfjeO2zkfcgq5AABp",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "GDDOfjeO2zkfcgq5AABp",
+          "connectedAt": "2025-06-04T21:47:03.648Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "w_H7gTl6JGkSmkwfAABr",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "w_H7gTl6JGkSmkwfAABr",
+          "connectedAt": "2025-06-04T21:47:13.679Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "KJpuurKwclwQzeyKAABt",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "KJpuurKwclwQzeyKAABt",
+          "connectedAt": "2025-06-04T21:47:23.706Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "2Hb1ZRdT_Cc_F9VnAABv",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "2Hb1ZRdT_Cc_F9VnAABv",
+          "connectedAt": "2025-06-04T21:47:33.740Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "Em0fUDQEnHFMQG38AABx",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "Em0fUDQEnHFMQG38AABx",
+          "connectedAt": "2025-06-04T21:47:43.745Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "XWSVg0J5gyN9caSzAABz",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "XWSVg0J5gyN9caSzAABz",
+          "connectedAt": "2025-06-04T21:47:53.765Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "VyIIOBAJEBvOWl5CAAB1",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "VyIIOBAJEBvOWl5CAAB1",
+          "connectedAt": "2025-06-04T21:48:03.808Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "RAzKbNFzCWXDlnBpAAB3",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "RAzKbNFzCWXDlnBpAAB3",
+          "connectedAt": "2025-06-04T21:48:13.827Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "XZ744RalNxU_m0oYAAB5",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "XZ744RalNxU_m0oYAAB5",
+          "connectedAt": "2025-06-04T21:48:23.859Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "fuARU8ig_4QnRkO8AAB7",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "fuARU8ig_4QnRkO8AAB7",
+          "connectedAt": "2025-06-04T21:48:33.880Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "kUqV4jGDKWIXJMWdAAAD",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "kUqV4jGDKWIXJMWdAAAD",
+          "connectedAt": "2025-06-04T21:48:53.960Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "ddyUYYCsILZXikSwAAAJ",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "ddyUYYCsILZXikSwAAAJ",
+          "connectedAt": "2025-06-04T21:49:24.007Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "FflN_pArDXdOllFvAAAL",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "FflN_pArDXdOllFvAAAL",
+          "connectedAt": "2025-06-04T21:49:33.970Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "Pcxucm4PC582MueYAAAN",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "Pcxucm4PC582MueYAAAN",
+          "connectedAt": "2025-06-04T21:49:43.998Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "S4GJD7LBt4G3i3cFAAAP",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "S4GJD7LBt4G3i3cFAAAP",
+          "connectedAt": "2025-06-04T21:49:54.125Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "4JYs5Vejn7Dj0lubAAAR",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "4JYs5Vejn7Dj0lubAAAR",
+          "connectedAt": "2025-06-04T21:50:04.038Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "t-AKeDaEzGchYcyKAAAT",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "t-AKeDaEzGchYcyKAAAT",
+          "connectedAt": "2025-06-04T21:50:14.065Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "DsRFr9TNF2xYd0caAAAV",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "DsRFr9TNF2xYd0caAAAV",
+          "connectedAt": "2025-06-04T21:50:24.150Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "evheTTdqdSz50LAMAAAX",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "evheTTdqdSz50LAMAAAX",
+          "connectedAt": "2025-06-04T21:50:34.118Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "Aggtu0y6to1CkZ8MAAAZ",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "Aggtu0y6to1CkZ8MAAAZ",
+          "connectedAt": "2025-06-04T21:50:44.154Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "3OTSjVzOirTeZw4TAAAb",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "3OTSjVzOirTeZw4TAAAb",
+          "connectedAt": "2025-06-04T21:50:54.285Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "uQ6IploKafHnW5y1AAAd",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "uQ6IploKafHnW5y1AAAd",
+          "connectedAt": "2025-06-04T21:51:04.212Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "USvpqvPLeuaR5m5HAAAf",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "USvpqvPLeuaR5m5HAAAf",
+          "connectedAt": "2025-06-04T21:51:14.233Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "A0uyKnpQRqZ8Da-fAAAh",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "A0uyKnpQRqZ8Da-fAAAh",
+          "connectedAt": "2025-06-04T21:51:24.238Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "Q0AtggW8xrY6hiiXAAAj",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "Q0AtggW8xrY6hiiXAAAj",
+          "connectedAt": "2025-06-04T21:51:34.385Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "OB5aQPxKNJOFwnvsAAAl",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "OB5aQPxKNJOFwnvsAAAl",
+          "connectedAt": "2025-06-04T21:51:44.286Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "cGEhAdDXA6SfCpMwAAAn",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "cGEhAdDXA6SfCpMwAAAn",
+          "connectedAt": "2025-06-04T21:51:54.324Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "yeyAPCwR9vJCc2LLAAAp",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "yeyAPCwR9vJCc2LLAAAp",
+          "connectedAt": "2025-06-04T21:52:04.428Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "PhvIQdnoLus0Ma2LAAAr",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "PhvIQdnoLus0Ma2LAAAr",
+          "connectedAt": "2025-06-04T21:52:20.108Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "WAJU0_e4nTu9X3lfAAAt",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "WAJU0_e4nTu9X3lfAAAt",
+          "connectedAt": "2025-06-04T21:52:34.140Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "Rq7o3MU9I3iG7PNwAAAx",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "Rq7o3MU9I3iG7PNwAAAx",
+          "connectedAt": "2025-06-04T21:52:50.012Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "DeuT7C-jflqyjErXAAAz",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "DeuT7C-jflqyjErXAAAz",
+          "connectedAt": "2025-06-04T21:52:59.865Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "eUQtY2c91O-dvMsbAAA1",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "eUQtY2c91O-dvMsbAAA1",
+          "connectedAt": "2025-06-04T21:53:09.841Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "xq6XIZR3NJasxRs2AAA3",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "xq6XIZR3NJasxRs2AAA3",
+          "connectedAt": "2025-06-04T21:53:19.877Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "bnPzeuY1SVhiUHVJAAA9",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "bnPzeuY1SVhiUHVJAAA9",
+          "connectedAt": "2025-06-04T21:53:59.977Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "-Ox7KxjDoIdfJkw_AAA_",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "-Ox7KxjDoIdfJkw_AAA_",
+          "connectedAt": "2025-06-04T21:54:09.979Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "hK54JG6J8Vvb9C9RAABB",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "hK54JG6J8Vvb9C9RAABB",
+          "connectedAt": "2025-06-04T21:54:22.126Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "LkJQKmgf9yocwZ8pAABD",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "LkJQKmgf9yocwZ8pAABD",
+          "connectedAt": "2025-06-04T21:54:30.060Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "DT2rTZA0b6fmh6xoAABF",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "DT2rTZA0b6fmh6xoAABF",
+          "connectedAt": "2025-06-04T21:54:40.076Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "YfYDGtiCy8wK7mMMAABH",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "YfYDGtiCy8wK7mMMAABH",
+          "connectedAt": "2025-06-04T21:54:55.624Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "L7NTtBZuoCLWsRjfAABJ",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "L7NTtBZuoCLWsRjfAABJ",
+          "connectedAt": "2025-06-04T21:55:01.286Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "5hbDu6Ez62jozwT0AABL",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "5hbDu6Ez62jozwT0AABL",
+          "connectedAt": "2025-06-04T21:55:14.116Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "JV-Mc6eIs5o2MmN5AABN",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "JV-Mc6eIs5o2MmN5AABN",
+          "connectedAt": "2025-06-04T21:55:21.387Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "Fo6jzvz_kQRiCmsZAABP",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "Fo6jzvz_kQRiCmsZAABP",
+          "connectedAt": "2025-06-04T21:55:31.376Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "8cr3Ntb-UyX-inbaAABR",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "8cr3Ntb-UyX-inbaAABR",
+          "connectedAt": "2025-06-04T21:55:41.455Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "UPRzLmKEnU_wbiXKAABV",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "UPRzLmKEnU_wbiXKAABV",
+          "connectedAt": "2025-06-04T21:56:42.978Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ],
+      [
+        "JTEGiJ9t-wqx6l5eAABX",
+        {
+          "id": "00:00:00:00:00:00",
+          "name": "ESP32-Player",
+          "socketId": "JTEGiJ9t-wqx6l5eAABX",
+          "connectedAt": "2025-06-04T21:56:48.646Z",
+          "type": "esp32",
+          "ip": "192.168.0.118",
+          "mac": "00:00:00:00:00:00",
+          "avatar": "https://i.pravatar.cc/150?u=ESP32-Player",
+          "status": "online",
+          "position": ""
+        }
+      ]
+    ],
+    "recordings": [],
+    "communications": [],
+    "playersOnField": [],
+    "createdAt": "2025-06-04T18:30:33.132Z",
+    "lastUpdated": "2025-06-08T23:57:19.616Z"
+  }
+}

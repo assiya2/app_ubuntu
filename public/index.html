@@ -1,88 +1,455 @@
-<!-- public/fiche.html -->
 <!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
-  <title>Fiche Entraîneur</title>
-  <style>
-    body { font-family: Arial; background: #f5f5f5; padding: 20px; }
-    .container {
-      background: white;
-      padding: 20px;
-      border-radius: 8px;
-      max-width: 500px;
-      margin: 50px auto;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-    }
-    .form-group { margin-bottom: 15px; }
-    label { display: block; font-weight: bold; margin-bottom: 5px; }
-    input { width: 100%; padding: 10px; border-radius: 4px; border: 1px solid #ccc; }
-    button {
-      padding: 10px 15px;
-      background: #007bff;
-      color: white;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-      margin-right: 10px;
-    }
-    button:hover { background: #0056b3; }
-    .avatar-preview {
-      width: 80px;
-      height: 80px;
-      border-radius: 50%;
-      background: #eee;
-      object-fit: cover;
-      margin-bottom: 10px;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Terrain Entraîneur Multi-Coach</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+  <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h2>Profil de l'entraîneur</h2>
-
-    <div class="form-group">
-      <label>Nom :</label>
-      <input type="text" id="entraineurName" />
+ 
+  <div id="app">
+    <!-- Header -->
+    <div class="header">
+      <div class="header-left">
+        <div class="header-title">
+          <i class="fas fa-futbol"></i>
+          Terrain Entraîneur Multi-Coach
+        </div>
+      </div>
+      <div class="header-right">
+        <span v-if="isConnectedToMatch" class="status-badge status-connected">
+          <i class="fas fa-circle"></i> Connecté
+        </span>
+        <span v-else class="status-badge status-disconnected">
+          <i class="fas fa-circle"></i> Déconnecté
+        </span>
+        <span v-if="coachesConnected.length > 0">
+          {{ coachesConnected.length }} entraîneur(s) actif(s)
+        </span>
+      </div>
     </div>
 
-    <div class="form-group">
-      <label>Avatar (URL) :</label>
-      <input type="text" id="entraineurAvatar" placeholder="https://..." />
-      <img id="avatarPreview" class="avatar-preview" src="https://via.placeholder.com/80" />
+    <!-- Panel Audio pour les Joueurs -->
+    <div class="player-audio-panel" :class="{ receiving: isReceivingAudio }" v-if="isPlayer">
+      <div class="audio-indicator">
+        <i class="fas fa-volume-up pulse"></i>
+      </div>
+      <div class="audio-message">Communication de l'entraîneur en cours</div>
+      <div class="audio-details">{{ currentCoachMessage }}</div>
     </div>
 
-    <button onclick="saveProfile()">💾 Enregistrer</button>
-    <button onclick="goToMatch()">🎮 Aller aux matchs</button>
+    <div class="main-content">
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <!-- Onglets -->
+        <div class="sidebar-tabs">
+          <div class="sidebar-tab" 
+               :class="{ active: activeTab === 'coaches' }"
+               @click="activeTab = 'coaches'">
+            <i class="fas fa-users"></i>
+            <div>Entraîneurs</div>
+          </div>
+          <div class="sidebar-tab" 
+               :class="{ active: activeTab === 'players' }"
+               @click="activeTab = 'players'">
+            <i class="fas fa-running"></i>
+            <div>Joueurs</div>
+          </div>
+          <div class="sidebar-tab" 
+               :class="{ active: activeTab === 'audio' }"
+               @click="activeTab = 'audio'">
+            <i class="fas fa-microphone"></i>
+            <div>Audio</div>
+          </div>
+        </div>
+
+        <!-- Contenu des onglets -->
+        <div class="sidebar-content">
+          <!-- Onglet Entraîneurs -->
+          <div v-if="activeTab === 'coaches'">
+            <!-- Section Connexion -->
+            <div class="sidebar-section">
+              <div class="section-title">
+                <i class="fas fa-users"></i>
+                Entraîneurs
+              </div>
+              
+              <div v-if="!isConnectedToMatch" class="coach-form">
+                <div class="form-group">
+                  <label>Nom de l'entraîneur</label>
+                  <input type="text" v-model="coachName" placeholder="Votre nom">
+                </div>
+                <div class="form-group">
+                  <label>Rôle</label>
+                  <select v-model="coachRole">
+                    <option value="Entraîneur Principal">Entraîneur Principal</option>
+                    <option value="Assistant">Assistant</option>
+                    <option value="Préparateur Physique">Préparateur Physique</option>
+                    <option value="Analyste">Analyste</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label>Match d'entraînement</label>
+                  <input type="text" v-model="matchId" placeholder="ID du match">
+                </div>
+                <button @click="rejoindreMatch" 
+                        class="btn btn-success btn-block"
+                        :disabled="!coachName || !matchId">
+                  <i class="fas fa-plus"></i>
+                  Rejoindre le Match
+                </button>
+              </div>
+
+              <div v-else class="match-info">
+                <div class="match-id">Match: {{ matchId }}</div>
+                <div class="match-details">{{ coachName }} • {{ coachRole }}</div>
+              </div>
+            </div>
+
+            <!-- Section Entraîneurs Actifs -->
+            <div class="sidebar-section" v-if="isConnectedToMatch">
+              <div class="section-title">
+                <i class="fas fa-clipboard-list"></i>
+                Entraîneurs Actifs
+              </div>
+              
+              <div v-if="coachesConnected.length === 0" class="empty-state">
+                Aucun entraîneur connecté
+              </div>
+              
+              <div v-else class="coaches-list">
+                <div v-for="coach in coachesConnected" 
+                     :key="coach.id" 
+                     class="coach-item"
+                     :class="{ active: coach.name === coachName }">
+                  <div class="coach-avatar">
+                    {{ coach.name.charAt(0).toUpperCase() }}
+                  </div>
+                  <div class="coach-info">
+                    <div class="coach-name">{{ coach.name }}</div>
+                    <div class="coach-role">{{ coach.role }}</div>
+                  </div>
+                  <div class="coach-status" 
+                       :class="{ 
+                         recording: coach.isRecording, 
+                         streaming: streamingCoaches.has(coach.name),
+                         communicating: coach.isCommunicating
+                       }"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Section Type de Terrain -->
+            <div class="sidebar-section" v-if="isConnectedToMatch">
+              <div class="section-title">
+                <i class="fas fa-map"></i>
+                Type de Terrain
+              </div>
+              <div class="form-group">
+                <select v-model="terrainChoisi" @change="changerTerrain">
+                  <option value="foot">Football</option>
+                  <option value="basket">Basketball</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Section Sauvegarde -->
+            <div class="sidebar-section" v-if="isConnectedToMatch">
+              <div class="section-title">
+                <i class="fas fa-save"></i>
+                Sauvegarde
+              </div>
+              
+              <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+                <button @click="sauvegarderMatch" class="btn btn-info btn-sm">
+                  <i class="fas fa-save"></i>
+                  Sauvegarder Match
+                </button>
+                
+                <button @click="sauvegarderProfilEntraineur" class="btn btn-success btn-sm">
+                  <i class="fas fa-user-check"></i>
+                  Sauvegarder Profil
+                </button>
+              </div>
+              
+              <div style="margin-top: 10px; font-size: 11px; color: #6c757d;">
+                <i class="fas fa-info-circle"></i>
+                Sauvegarde automatique toutes les 30 secondes
+              </div>
+            </div>
+
+            <!-- Section Matches Sauvegardés -->
+            <div class="sidebar-section" v-if="!isConnectedToMatch && matchesSauvegardes.length > 0">
+              <div class="section-title">
+                <i class="fas fa-history"></i>
+                Matches Sauvegardés
+              </div>
+              
+              <div style="max-height: 200px; overflow-y: auto;">
+                <div v-for="match in matchesSauvegardes" 
+                     :key="match.matchId" 
+                     class="match-item"
+                     style="padding: 8px; margin-bottom: 8px; background: #f8f9fa; border-radius: 4px; border: 1px solid #e9ecef;">
+                  <div style="font-weight: 500; font-size: 13px;">{{ match.matchId }}</div>
+                  <div style="font-size: 11px; color: #6c757d;">
+                    {{ match.terrain }} • {{ match.coachesCount }} entraîneur(s) • 
+                    {{ formatDate(match.createdAt) }}
+                  </div>
+                  <div style="margin-top: 6px; display: flex; gap: 4px;">
+                    <button @click="rejoindreMatchSauvegarde(match.matchId)" 
+                            class="btn btn-primary btn-xs">
+                      <i class="fas fa-play"></i>
+                      Rejoindre
+                    </button>
+                    <button @click="supprimerMatch(match.matchId)" 
+                            class="btn btn-danger btn-xs">
+                      <i class="fas fa-trash"></i>
+                      Supprimer
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Onglet Joueurs -->
+          <div v-if="activeTab === 'players'">
+            <div class="sidebar-section">
+              <div class="section-title">
+                <i class="fas fa-running"></i>
+                Joueurs Connectés
+              </div>
+              
+              <div v-if="joueursUniques.length === 0" class="empty-state">
+                <i class="fas fa-users" style="font-size: 24px; margin-bottom: 10px; color: #dee2e6;"></i>
+                <div>Aucun joueur connecté</div>
+                <div style="font-size: 11px; margin-top: 5px;">
+                  Les joueurs apparaîtront ici une fois connectés
+                </div>
+              </div>
+              
+              <div v-else class="players-list">
+                <div v-for="joueur in joueursUniques" 
+                     :key="joueur.id" 
+                     class="player-item">
+                  <input type="checkbox" 
+                         :id="'player-'+joueur.id"
+                         v-model="selectedPlayers"
+                         :value="joueur"
+                         @click.stop>
+                  <label :for="'player-'+joueur.id" class="player-label">
+                    <img :src="joueur.avatar" class="player-avatar">
+                    <span class="player-name">{{ joueur.name }}</span>
+                    <span class="status-indicator" :class="'status-' + joueur.status"></span>
+                  </label>
+                  <button @click.stop="afficherCarteJoueur(joueur)" class="info-btn">
+                    <i class="fas fa-info-circle"></i>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Cartes des joueurs -->
+              <div v-if="carteVisible && joueurSelectionne" class="carte-joueur">
+                <button class="close-btn" @click="fermerCartes">×</button>
+                <div class="avatar-container">
+                  <img :src="joueurSelectionne.avatar" class="player-avatar">
+                  <h4>{{ joueurSelectionne.name }}</h4>
+                </div>
+                <p v-if="joueurSelectionne.x && joueurSelectionne.y"><strong>Position:</strong> ({{ joueurSelectionne.x.toFixed(0) }}, {{ joueurSelectionne.y.toFixed(0) }})</p>
+                <button @click="ajouterJoueur(joueurSelectionne)" class="btn btn-sm btn-success">Ajouter au terrain</button>
+                <button @click="afficherFormulaireModification()" class="btn btn-sm btn-info">Modifier</button>
+                <button @click="supprimerJoueur(joueurSelectionne)" class="btn btn-sm btn-danger">Supprimer</button>
+              </div>
+
+              <div v-if="showModificationForm" class="carte-joueur">
+                <button class="close-btn" @click="fermerCartes">×</button>
+                <h4>Modifier Joueur</h4>
+                <form @submit.prevent="validerModification">
+                  <div class="form-group">
+                    <label>Nom:</label>
+                    <input type="text" v-model="formModification.name" required>
+                  </div>
+                  <div class="form-group">
+                    <label>Position X:</label>
+                    <input type="number" v-model.number="formModification.x" required>
+                  </div>
+                  <div class="form-group">
+                    <label>Position Y:</label>
+                    <input type="number" v-model.number="formModification.y" required>
+                  </div>
+                  <div class="form-group">
+                    <label>Photo (URL):</label>
+                    <input type="text" v-model="formModification.avatar" placeholder="https://...">
+                  </div>
+                  <div class="form-actions">
+                    <button type="button" @click="annulerModification" class="btn btn-secondary">Annuler</button>
+                    <button type="submit" class="btn btn-success">Valider</button>
+                  </div>
+                </form>
+              </div>
+              
+              <!-- Boutons de communication -->
+              <div v-if="joueursUniques.length > 0" style="margin-top: 15px;">
+                <button @click="demarrerAudioMulti" 
+                        class="btn btn-purple btn-block btn-sm"
+                        :disabled="!selectedPlayers.length || streamingEnCours">
+                  <i class="fas fa-microphone"></i>
+                  Communication Audio ({{ selectedPlayers.length }})
+                </button>
+                
+                <button @click="arreterAudioPourTous"
+                        class="btn btn-danger btn-block btn-sm"
+                        style="margin-top: 8px;"
+                        :disabled="!streamingEnCours && !isCommunicationRecording">
+                  <i class="fas fa-stop"></i>
+                  Arrêter Communication
+                </button>
+
+                <div v-if="streamingEnCours || isCommunicationRecording" style="margin-top: 10px; text-align: center;">
+                  <div style="font-size: 12px; color: #17a2b8; font-weight: 500;">
+                    <i class="fas fa-broadcast-tower pulse"></i>
+                    Communication en cours vers {{ selectedPlayers.map(p => p.name).join(', ') }}
+                  </div>
+                  <div style="font-size: 10px; color: #6c757d; margin-top: 2px;">
+                    <i class="fas fa-circle" style="color: #dc3545;"></i>
+                    Enregistrement automatique actif
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Onglet Audio -->
+          <div v-if="activeTab === 'audio'">
+            <!-- Section Communications Enregistrées -->
+            <div class="sidebar-section" v-if="isConnectedToMatch">
+              <div class="section-title">
+                <i class="fas fa-broadcast-tower"></i>
+                Communications Enregistrées
+              </div>
+              
+              <div v-if="communications.length === 0" class="empty-state">
+                <i class="fas fa-broadcast-tower" style="font-size: 24px; margin-bottom: 10px; color: #dee2e6;"></i>
+                <div>Aucune communication enregistrée</div>
+                <div style="font-size: 11px; margin-top: 5px;">
+                  Les communications vers les joueurs sont automatiquement enregistrées
+                </div>
+              </div>
+              
+              <div v-else class="recordings-list">
+                <div v-for="(communication, index) in communications.slice().reverse()" 
+                     :key="communication.filename" 
+                     class="communication-item">
+                  <div class="communication-filename">
+                    <i class="fas fa-broadcast-tower"></i>
+                    Communication {{ communications.length - index }}
+                  </div>
+                  <div class="communication-details">
+                    {{ communication.coachName }} • {{ formatDuration(communication.duration) }} • 
+                    {{ formatDate(communication.startTime) }}
+                  </div>
+                  <div class="communication-targets">
+                    → {{ communication.targets.join(', ') }}
+                  </div>
+                  <div class="recording-actions">
+                    <button @click="lireAudio(communication)" 
+                            class="btn btn-info btn-xs"
+                            :disabled="currentlyPlaying === communication.filename">
+                      <i class="fas fa-play" v-if="currentlyPlaying !== communication.filename"></i>
+                      <i class="fas fa-pause" v-else></i>
+                      {{ currentlyPlaying === communication.filename ? 'Lecture...' : 'Écouter' }}
+                    </button>
+                    <button @click="telechargerAudio(communication)" 
+                            class="btn btn-success btn-xs">
+                      <i class="fas fa-download"></i>
+                      Télécharger
+                    </button>
+                    <button @click="supprimerCommunication(communication)" 
+                            class="btn btn-danger btn-xs">
+                      <i class="fas fa-trash"></i>
+                      Supprimer
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Statut de communication en cours -->
+              <div v-if="isCommunicationRecording" class="recording-panel active" style="margin-top: 15px;">
+                <div class="recording-title active">
+                  <i class="fas fa-broadcast-tower pulse"></i>
+                  Communication en Cours
+                </div>
+                <div class="recording-timer">{{ formatTime(communicationDuration) }}</div>
+                <div class="recording-subtitle">
+                  Vers: {{ communicationTargets.join(', ') }}
+                </div>
+                <div style="font-size: 11px; color: #6c757d;">
+                  <i class="fas fa-circle" style="color: #dc3545;"></i>
+                  Enregistrement automatique actif
+                </div>
+              </div>
+            </div>
+
+            <!-- Section Connexion requise -->
+            <div class="sidebar-section" v-if="!isConnectedToMatch">
+              <div class="empty-state">
+                <i class="fas fa-microphone" style="font-size: 24px; margin-bottom: 10px; color: #dee2e6;"></i>
+                <div>Connectez-vous à un match</div>
+                <div style="font-size: 11px; margin-top: 5px;">
+                  Les fonctionnalités audio seront disponibles une fois connecté
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Zone Canvas -->
+      <div class="canvas-container">
+        <div class="toolbar">
+          <button class="toolbar-btn" @click="effacerTerrain" v-if="isConnectedToMatch">
+            <i class="fas fa-eraser"></i>
+            Effacer
+          </button>
+          <button class="toolbar-btn" @click="toggleDragMode">
+            <i :class="dragMode ? 'fas fa-hand-paper' : 'fas fa-hand-pointer'"></i>
+            {{ dragMode ? 'Désactiver Déplacement' : 'Activer Déplacement' }}
+          </button>
+        </div>
+        
+        <div class="canvas-mode-indicator" v-if="dragMode">
+          <i class="fas fa-hand-paper"></i>
+          Mode déplacement activé - Glissez les joueurs
+        </div>
+        
+        <canvas 
+          ref="canvas" 
+          :width="canvasWidth" 
+          :height="canvasHeight"
+          @mousedown="handleMouseDown"
+          @mousemove="handleMouseMove"
+          @mouseup="handleMouseUp"
+          @mouseleave="handleMouseUp"
+          :class="{ 'drag-active': isDragging }"
+          :style="{ cursor: currentCursor }">
+        </canvas>
+      </div>
+    </div>
+
+    <!-- Notifications -->
+    <div v-if="notification" 
+         class="notification" 
+         :class="notification.type">
+      {{ notification.message }}
+    </div>
   </div>
 
-  <script>
-    const nameInput = document.getElementById('entraineurName');
-    const avatarInput = document.getElementById('entraineurAvatar');
-    const preview = document.getElementById('avatarPreview');
-
-    nameInput.value = localStorage.getItem('entraineurName') || '';
-    avatarInput.value = localStorage.getItem('entraineurAvatar') || '';
-    preview.src = avatarInput.value || 'https://via.placeholder.com/80';
-
-    avatarInput.addEventListener('input', () => {
-      preview.src = avatarInput.value || 'https://via.placeholder.com/80';
-    });
-
-    function saveProfile() {
-      localStorage.setItem('entraineurName', nameInput.value.trim());
-      localStorage.setItem('entraineurAvatar', avatarInput.value.trim());
-      alert("Profil mis à jour !");
-    }
-
-    function goToMatch() {
-      if (!nameInput.value.trim()) {
-        alert("Le nom est obligatoire !");
-        return;
-      }
-      saveProfile();
-      window.location.href = '/match.html';
-    }
-  </script>
+  <script src="terrain.js"></script>
 </body>
 </html>
+
+

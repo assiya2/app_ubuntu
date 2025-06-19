@@ -11,8 +11,11 @@
   "description": "",
   "dependencies": {
     "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "multer": "^2.0.0",
     "node-record-lpcm16": "^1.0.1",
     "socket.io": "^4.8.1",
-    "speaker": "^0.5.5"
+    "speaker": "^0.5.5",
+    "ws": "^8.18.2"
   }
 }
