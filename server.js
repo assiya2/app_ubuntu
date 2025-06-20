@@ -387,7 +387,7 @@ function stopCommunicationRecording(socketId) {
 
 // === SOCKET.IO ===
 io.on('connection', (socket) => {
-  console.log(`[${new Date().toISOString()}] ✅ Nouvelle connexion: ${socket.id}`);
+  console.log(`[${new Date().toISOString()}]  Nouvelle connexion: ${socket.id}`);
 
   // Enregistrement d'un joueur
   socket.on('register-player', (playerData) => {
